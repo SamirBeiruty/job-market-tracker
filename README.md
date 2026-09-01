@@ -13,14 +13,14 @@ reporting end to end.
 ## Dashboard
 
 <!-- dashboard:start -->
-*Last updated: 2026-08-31 19:23 UTC*
+*Last updated: 2026-09-01 17:09 UTC*
 
 | | |
 |---|---|
-| Postings tracked | 175 |
-| Companies | 151 |
-| New since last run | 8 |
-| Data/ML-related share | 15% |
+| Postings tracked | 194 |
+| Companies | 165 |
+| New since last run | 19 |
+| Data/ML-related share | 17% |
 | Median advertised max salary | $750,000 |
 
 ![Postings per week](reports/figures/postings_per_week.png)
