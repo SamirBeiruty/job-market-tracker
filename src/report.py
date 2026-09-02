@@ -53,13 +53,11 @@ def save_tags_chart(df: pd.DataFrame) -> None:
 
 def stats(df: pd.DataFrame) -> dict:
     today = datetime.now(timezone.utc).date().isoformat()
-    with_salary = df[df["salary_max"] > 0]
     return {
         "total": len(df),
         "companies": df["company"].nunique(),
         "new_today": int((df["first_seen"] == today).sum()),
         "data_share": df["tags"].apply(is_data_job).mean() if len(df) else 0.0,
-        "median_salary": int(with_salary["salary_max"].median()) if len(with_salary) else 0,
     }
 
 
@@ -75,7 +73,6 @@ def render_dashboard(s: dict) -> str:
         f"| Companies | {s['companies']:,} |",
         f"| New since last run | {s['new_today']:,} |",
         f"| Data/ML-related share | {s['data_share']:.0%} |",
-        f"| Median advertised max salary | ${s['median_salary']:,} |",
         "",
         "![Postings per week](reports/figures/postings_per_week.png)",
         "",
