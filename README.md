@@ -13,13 +13,13 @@ reporting end to end.
 ## Dashboard
 
 <!-- dashboard:start -->
-*Last updated: 2026-09-30 18:16 UTC*
+*Last updated: 2026-10-01 18:42 UTC*
 
 | | |
 |---|---|
-| Postings tracked | 381 |
-| Companies | 318 |
-| New since last run | 0 |
+| Postings tracked | 383 |
+| Companies | 319 |
+| New since last run | 2 |
 | Data/ML-related share | 29% |
 
 ![Postings per week](reports/figures/postings_per_week.png)
