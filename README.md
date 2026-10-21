@@ -13,12 +13,12 @@ reporting end to end.
 ## Dashboard
 
 <!-- dashboard:start -->
-*Last updated: 2026-10-20 17:46 UTC*
+*Last updated: 2026-10-21 17:54 UTC*
 
 | | |
 |---|---|
-| Postings tracked | 429 |
-| Companies | 358 |
+| Postings tracked | 430 |
+| Companies | 359 |
 | New since last run | 1 |
 | Data/ML-related share | 31% |
 
